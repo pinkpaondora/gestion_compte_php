@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+.navigation {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset rgb(126, 61, 186);
+    top: 0;
+    z-index: 1001;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    color: #3E2770;
+    padding: 6px;
+}
+
+
+header{
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 170px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 145px;
+    font-size: 50px;
+    color: white;
+}
+
+h2{
+    color: #3E2770;
+    font-size: 35px;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+a{
+    color: white;
+    font-size: 'Ubuntu';
+}
+
+.bouton{
+    background-color: #bd95ed;
+    margin-left: 675px;
+}
+
+.bouton a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+}
+
+#presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.texte{
+    font-size: 22px;
+    line-height: 35px;
+    padding: 25px;
+    text-align: center;
+    color: #3E2770;
+}
+
+.imgmoi, img{
+    height: 650px;
+}
+
+
+button{
+    
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20%;
+    background-color: #3E2770;
+    color: white;
+}
+
+.mesprojets p{
+    font-size: 22px;
+    text-align: center;
+}
+.mesprojets{
+    text-align: center;
+}
+
+
+
+#contact{
+    background-color: #3E2770;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 245px;
+    color: white;
+}
+
+.bloc-contact h2 {
+    color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+
+.bloc-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formulaire p{
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.formulaire a{
+    text-decoration: none;
+    
+}
+
+.suppressionid a{
+    color: #3E2770;
+}
+
+
+
+
+
+/*Page projet*/
+
+.portfoliotexte{
+    color: #3E2770;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    padding: 65px;
+    margin: 30px;
+}
+
+.imagee{
+   display: flex;
+   justify-content: space-around;
+   
+} 
+
+.imagee img{
+    max-height: 400px;
+    padding: 40px;
+}
+
+.bloc-imagee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+/* Contact */
+
+form{
+    background-color: #3E2770;
+    margin: 45px;
+    padding: 45px;
+    border-radius: 2%;
+    
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    background-color: #3E2770;
+    color: white;
+    font-family: 'Ibuntu';
+    border: none;
+    border-bottom: white solid 1px;
+}
+
+#sujet{
+    background-color: #3E2770;
+    color: white;
+    border: none;
+    border-bottom: white solid 1px;
+    margin-bottom: 10px;
+    font-family: 'Ibuntu';
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+textarea{
+    background-color: #3E2770;
+    width: 100%;
+}
+
+form button{
+    margin-left: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* cv */
+
+#introcv{
+    padding-top: 35px;
+}
+
+.infocv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #3E2770;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.imgcv img{
+    margin-top: 25px;
+    margin-left: 650px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+h3{
+    color: #3E2770;
+    padding-left: 45px;
+    font-size: 22px;
+}
+
+#formationexp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experiences{
+    background-color: rgb(247, 246, 246);    
+    margin: 45px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    border-color: #3E2770;
+    border-style: solid;
+}
+
+#compeskill{
+    display: flex;
+    justify-content: space-around;
+}
+
+.competences{
+    background-color: rgb(247, 246, 246);    
+    margin: 45px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    border-color: #3E2770;
+    border-style: solid;
+}
+
+#logiciels{
+    background-color: rgb(247, 246, 246);
+}
+
+#divers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.autre{
+    background-color: rgb(247, 246, 246);    
+    margin: 45px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    border-color: #3E2770;
+    border-style: solid;
+}
+
+#infosdemoi{
+    text-align: center;
+    background-color: rgb(247, 246, 246);    
+    margin: 45px;
+    padding: 45px;
+    border-radius: 10px;
+    border-color: #3E2770;
+    border-style: solid;
+}
+
+
+/* Charte graphique */
+
+.titre-charte h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.couleurs-hexa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.couleurs{
+    background-color: #3E2770;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+
+.couleurs1{
+    background-color: #bd95ed;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.couleurs2{
+    background-color: #9C78A9;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    opacity: 25%;
+}
+
+.couleurs3{
+    background-color:  rgb(247, 246, 246);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.textedelacharte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texte-couleurs{
+    text-align: center;
+    padding-right: 65px;
+}
+
+.texte-couleurs li{
+    list-style-type: none;
+}
+
+.typo{
+    font-size: 22px;
+    padding-left: 65px;
+    margin-right: 45px;
+}
+
+.extypo{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-size: 24px;
+    padding-right: 65px;
+}
+
+.imgcharte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgcharte img{
+    height: 250px;
+    width: 250px;
+}
+
+.imgcharte p{
+    font-size: 22px;
+    padding: 120px;
+    text-align: center;
+}
+
+.maquette {
+    text-align: center;
+}
+
+.bouto{
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-bottom: 35px;
+    margin-left: 655px;
+    margin-top: 10px;
+
+}
+
+.bouto a{
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#logiciels{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.logiciels img{
+    max-height: 150px;
+    max-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.logiciels p{
+    display: flex;
+    justify-content: space-around;
+}
